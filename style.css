@@ -1,0 +1,127 @@
+/*colors
+#F7FFF7 ~ amost white d
+#343434 ~ dark gray , almost black d
+#2F3061 ~ blue dark  d
+#FFE660 ~ yellow  d
+#A1C6D7 ~ blue light d
+*/
+
+/* Global Style
+------------------------------*/
+/* the following piece of code which is before the body is Dark Magic -just put it there*/
+html{
+    box-sizing: border-box;
+}
+*, *:before , *:after{
+    box-sizing: initial;
+}
+body{
+    color:#343434 ;
+    /* margin: 0; and padding: 0; are for getting red of the white space at the corner of the site*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+img{
+    width: 300px;
+}
+a{
+    color:#FFE660 ;
+}
+a:hover{
+    text-decoration: none;
+}
+.change-BG-size{
+    width: 900px;
+    /* margin: 0 auto; is used to make the BG color width be the all the site width*/
+    margin: 0 auto;
+    padding: 50px 0;
+}
+h2{
+  /*  margin: 0;  */
+  font-size: 45px;
+  line-height: 1;
+}
+h1 , h2{
+    font-family: 'Caveat', cursive;
+    margin: 0; 
+    /* or >> line-height: 30px; */
+    font-weight: 400;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+.align-center{
+    text-align: center;
+}
+
+
+
+/* Profile
+------------------------------*/
+header{
+    background-color:#2F3061 ;
+    color: #F7FFF7;
+}
+
+
+
+
+/* Projects
+------------------------------*/
+.projects{
+    background:#F7FFF7  ;
+}
+.projects a{
+    color: #2F3061;
+}
+.projects .btn{
+    color: #F7FFF7;
+    background: #2F3061;
+   /* text-decoration: none; */
+    padding: 8px;
+    border-radius: 7px;
+}
+.projects .btn:hover{
+    /* the rgba(47,48,97,87%) is the same as #2F3061 without the 87%, this 87% is the obasity*/
+    background: rgba(47,48,97,87%);
+    display: inline-block;
+}
+.float-image{
+    overflow: hidden;
+    border-bottom: 1px #343434 dashed ;
+    padding: 25px 0;
+}
+.float-image img{
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+/* Work Experence
+------------------------------*/
+.work-experience{
+    background:#A1C6D7 ;
+}
+
+
+
+
+/* Education
+------------------------------*/
+
+
+
+
+
+
+/* Contact Info
+------------------------------*/
+footer{
+    background:#343434 ;
+    color: #F7FFF7;
+}
